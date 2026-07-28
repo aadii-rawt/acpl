@@ -1,16 +1,123 @@
-# React + Vite
+## 🚀 Tech Stack Used
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Icons
 
-Currently, two official plugins are available:
+### Styling
+- Tailwind CSS
+- Custom CSS Animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Deployment
+- Vercel / Netlify (Compatible)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Installation
 
-## Expanding the Oxlint configuration
+Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project
+
+```bash
+cd project-name
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ How to Run the Project Locally
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📁 Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## ✨ Features Implemented
+
+- Fully Responsive Design
+- Modern Cybersecurity Landing Page
+- Animated Hero Section
+- Infinite Partner Logo Marquee
+- Interactive Services Section
+- Products Showcase
+- Testimonial Cards
+- Resources & Blogs Section
+- Contact Form UI
+- Custom Footer
+- Smooth Hover Animations
+- Gradient Effects & Background Glows
+- Reusable Components
+- Optimized Layout for Desktop, Tablet, and Mobile
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│── pages/
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## 🎨 UI Highlights
+
+- Pixel-perfect responsive layout
+- Modern dark cybersecurity theme
+- Custom Tailwind styling
+- Smooth transitions and hover effects
+- Interactive cards and buttons
+- Optimized spacing and typography
+
+---
+
+## 📱 Responsive Support
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## 📜 License
+
+This project is created for assessment and demonstration purposes.

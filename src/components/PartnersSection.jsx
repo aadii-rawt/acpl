@@ -1,6 +1,7 @@
 import PartnerCard from "./PartnerCard";
 import SolutionCard from "./SolutionCard";
 import CenterNode from "./CenterNode";
+import Capsule from "./Capsule";
 
 
 const partnersTop = [
@@ -44,9 +45,8 @@ export default function PartnersSection() {
 
         <div className="text-center">
 
-          <span className="rounded-full bg-red-600 px-5 py-2 text-xs  text-white font-semibold">
-            Partners & Expertise
-          </span>
+         <Capsule title="Partners & Expertise" />
+
 
           <h2 className="mt-6 text-5xl font-semibold text-white leading-tight">
             Powerful Solutions

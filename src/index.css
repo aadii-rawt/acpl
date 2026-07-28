@@ -4,6 +4,9 @@
   background-color: #1D0001;
 }
 
+.text-primary{
+  color : #E41F26
+}
 /* marquee tag animation */
 
 .marquee {
@@ -64,4 +67,121 @@
 
 .animation-delay-2100{
   animation-delay:2.1s;
+}
+
+
+/* banner logo scrol */
+
+/* =========================================
+   COLUMN
+========================================= */
+
+.column {
+  position: relative;
+  width: 180px;
+  height: 760px;
+  overflow: hidden;
+}
+
+/* =========================================
+   TRACK
+========================================= */
+
+.track {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  will-change: transform;
+}
+
+/* =========================================
+   ANIMATION
+========================================= */
+
+.track-up {
+  animation: scrollUp 18s linear infinite;
+}
+
+.track-down {
+  animation: scrollDown 18s linear infinite;
+}
+
+/* =========================================
+   KEYFRAMES
+========================================= */
+
+@keyframes scrollUp {
+
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+
+}
+
+@keyframes scrollDown {
+
+  from {
+    transform: translateY(-50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+
+}
+
+/* =========================================
+   HOVER
+========================================= */
+
+.column:hover .track {
+  animation-play-state: paused;
+}
+
+
+
+
+
+.column {
+  width: 180px;
+  height: 760px;
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.track-up {
+  animation: scrollUp 12s linear infinite;
+}
+
+.track-down {
+  animation: scrollDown 12s linear infinite;
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-800px);
+  }
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(-800px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

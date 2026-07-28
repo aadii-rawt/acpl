@@ -6,7 +6,6 @@ const PartnerCard = ({ icon, name }) => {
             className="relative group h-[110px] w-full overflow-hidden"
 
         >
-
             <img
                 src="/Dot2.png"
                 alt=""
