@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+.bg-primary{
+  background-color: #1D0001;
+}
+
+/* marquee tag animation */
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 22s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+@keyframes ripple {
+
+  0%{
+    transform: scale(1);
+    opacity:.6;
+  }
+
+  70%{
+    opacity:.2;
+  }
+
+  100%{
+    transform: scale(2.2);
+    opacity:0;
+  }
+
+}
+/* rippple animatin partner section */
+
+.animate-ripple{
+  animation:ripple 2.8s linear infinite;
+}
+
+.animation-delay-0{
+  animation-delay:0s;
+}
+
+.animation-delay-700{
+  animation-delay:.7s;
+}
+
+.animation-delay-1400{
+  animation-delay:1.4s;
+}
+
+.animation-delay-2100{
+  animation-delay:2.1s;
+}
