@@ -54,7 +54,7 @@ export default function ResourcesSection() {
 
           {/* Featured Card */}
 
-          <div className="group p-5 overflow-hidden rounded-3xl border border-red-700 bg-[#4a0303] transition duration-300 hover:border-red-500">
+          <div className="group p-5 overflow-hidden rounded-3xl border border-[#E41F26] bg-[#3B0000] transition duration-300 hover:border-red-500">
 
            
               <img
@@ -100,7 +100,7 @@ export default function ResourcesSection() {
 
               <div
                 key={index}
-                className="group flex items-center gap-6 overflow-hidden rounded-3xl border border-red-700 bg-[#4a0303] p-3 "
+                className="group flex items-center gap-6 overflow-hidden rounded-3xl border border-[#E41F26] bg-[#3B0000] p-3 "
               >
 
                 <div className="overflow-hidden rounded-2xl">

@@ -185,3 +185,27 @@
     transform: translateY(0);
   }
 }
+
+
+/* shine button */
+
+.border-path {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+
+  stroke-dasharray: 25 640;
+  stroke-linecap: round;
+
+  animation: moveBorder 2.8s linear infinite;
+}
+
+@keyframes moveBorder {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -640;
+  }
+}

@@ -5,6 +5,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { MdVerified, MdDescription } from "react-icons/md";
+import Button from "../UI/Button";
 
 const stats = [
   {
@@ -46,8 +47,8 @@ export default function Hero() {
             {/* Left */}
             <div className="w-full lg:w-1/2">
 
-              <div className="inline-flex items-center border border-red-500 bg-red-600/15 rounded-full px-4 py-2 text-xs md:text-sm font-medium">
-                ⭐ 35 Years of Excellence
+              <div className="inline-flex gap-2 shine-btn items-center border border-red-500 bg-gradient-to-r from-[#6D0005] to-[#D3000A] rounded-full px-4 py-2 text-xs md:text-sm font-medium">
+                <img src="/star.png" alt="" /> 35 Years of Excellence
               </div>
 
               <div className="mt-8 space-y-3">
@@ -82,14 +83,12 @@ export default function Hero() {
 
               </div>
 
-              <div className="flex flex-wrap gap-4 mt-10">
+              <div className="flex flex-wrap items-center gap-4 mt-10">
 
-                <button className="bg-red-600 hover:bg-red-700 duration-300 px-6 py-3 rounded-lg flex items-center gap-3 font-medium text-sm md:text-base">
-                  Talk to Our Experts
-                  <FaArrowRight />
-                </button>
+                <Button title={"Talk to our Experts"} icon={<FaArrowRight />} />
 
-                <button className="border border-red-500 hover:bg-red-600/20 duration-300 px-6 py-3 rounded-lg flex items-center gap-3 font-medium text-sm md:text-base">
+
+                <button className="border mt-10 border-red-500 hover:bg-red-600/20 duration-300 px-6 py-3 rounded-lg flex items-center gap-3 font-medium text-sm md:text-base">
                   <FaEye />
                   View Our Resources
                 </button>
