@@ -35,9 +35,8 @@ export default function Hero() {
   return (
     <section className=" h-full  bg-primary text-white">
 
-      {/* Background Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-red-700/20 blur-[170px]" />
-
+     <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] rounded-full bg-red-700/20 blur-[170px]" /> {/* Background Glow */}
+     
       <div className="relative max-w-[1500px] mx-auto px-5 lg:px-10 h-full flex flex-col">
 
         {/* Hero */}

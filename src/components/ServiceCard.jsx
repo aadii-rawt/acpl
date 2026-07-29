@@ -23,13 +23,13 @@ export default function ServiceCard({
             {/* Large Number */}
 
             {/* Content */}
-            <div className="relative z-10 flex  gap-20 py-12">
+            <div className="relative z-10 flex md:gap-20 py-12">
                 {/* Left */}
                 <div className="flex items-center justify-left px-20 py-5">
                     <img
                         src={icon}
                         alt={title}
-                        className="w-[220px] md:w-[280px] lg:w-[200px] object-contain"
+                        className="w-[200px] object-contain"
                     />
                 </div>
 

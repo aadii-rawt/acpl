@@ -2,13 +2,13 @@ import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 export default function ContactSection() {
   return (
-    <section className="relative overflow-hidden  ma py-10 bg-gradient-to-br from-[#2C0002] via-[#560E0E] to-[#2C0002]">
+    <section className="relative overflow-hidden py-10 bg-gradient-to-br from-[#2C0002] via-[#560E0E] to-[#2C0002]">
 
       {/* Background */}
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#5b0707_0%,#320303_45%,#220203_100%)]" />
 
-      <div className="relative mx-auto max-w-[1600px] px-6 max-w-8xl mx-auto">
+      <div className="relative mx-auto max-w-[1600px] px-4 nd:px-6 max-w-8xl mx-auto">
 
         <div className="grid items-center gap-20 lg:grid-cols-2">
 
