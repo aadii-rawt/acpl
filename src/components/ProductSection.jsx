@@ -19,7 +19,7 @@ export default function ProductSection() {
     ];
 
     return (
-        <section className="relative overflow-hidden py-24">
+        <section id="product" className="relative overflow-hidden py-24">
 
             <div className="relative mx-auto max-w-[1500px] px-6">
 
@@ -28,7 +28,7 @@ export default function ProductSection() {
                 <div className="mx-auto max-w-3xl text-center">
 
                     <Capsule title="Our Products" />
-                    <h2 className="mt-8 text-4xl font-bold text-white">
+                    <h2 className="mt-8 text-4xl font-primary font-bold text-white">
                         The ACPL{" "}
                         <span className="text-primary">
                             Differentiator
@@ -51,7 +51,7 @@ export default function ProductSection() {
 
                     <div>
 
-                        <h2 className="text-5xl font-bold text-white leading-tight">
+                        <h2 className="text-4xl font-primary font-bold text-white leading-tight">
                             Klassify —
                             Data Knows Its Place
                         </h2>

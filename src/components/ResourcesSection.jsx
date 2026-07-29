@@ -35,12 +35,12 @@ export default function ResourcesSection() {
 <Capsule title={"Resrouces"} />
         
 
-          <h2 className="mt-8 text-5xl font-semibold text-white">
+          <h2 className="mt-8 text-4xl font-primary font-semibold text-white">
             Insights That Drive Security{" "}
             <span className="text-red-500">Forward</span>
           </h2>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-6 text-gray-300">
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-6 text-gray-300">
             Explore ACPL's expert-led whitepapers, reports, and playbooks
             designed to help CISOs, CIOs, and security leaders make informed,
             strategic decisions in a complex threat landscape.
@@ -70,7 +70,7 @@ export default function ResourcesSection() {
                 20 MINS READ
               </p>
 
-              <h3 className="mt-4 text-3xl font-semibold text-white">
+              <h3 className="mt-4 text-2xl font-primary font-semibold text-white">
                 BCCL Embraces Advanced Security
               </h3>
 
@@ -119,7 +119,7 @@ export default function ResourcesSection() {
                     {item.readTime}
                   </p>
 
-                  <h3 className="mt-3 text-3xl font-medium text-white">
+                  <h3 className="mt-3 text-2xl font-medium text-white font-primary">
                     {item.title}
                   </h3>
 

@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa";
 import { MdVerified, MdDescription } from "react-icons/md";
 import Button from "../UI/Button";
+import Capsule from "./Capsule";
 
 const stats = [
   {
@@ -46,37 +47,36 @@ export default function Hero() {
 
             {/* Left */}
             <div className="w-full lg:w-1/2">
-
-              <div className="inline-flex gap-2 shine-btn items-center border border-red-500 bg-gradient-to-r from-[#6D0005] to-[#D3000A] rounded-full px-4 py-2 text-xs md:text-sm font-medium">
+              <Capsule title={   <div className="inline-flex gap-2 items-center ">
                 <img src="/star.png" alt="" /> 35 Years of Excellence
-              </div>
+              </div>} />
 
               <div className="mt-8 space-y-3">
 
-                <h1 className="font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="font-semibold  leading-tight text-5xl lg:text-5xl">
                   Assess{" "}
-                  <span className="italic font-normal text-red-500">
+                  <span className="italic font-medium text-primary">
                     with clarity.
                   </span>
                 </h1>
 
-                <h1 className="font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="font-semibold leading-tight text-5xl lg:text-5xl">
                   Implement{" "}
-                  <span className="italic font-normal text-red-500">
+                  <span className="italic font-medium text-primary">
                     with confidence.
                   </span>
                 </h1>
 
-                <h1 className="font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="font-semibold leading-tight text-5xl lg:text-5xl">
                   Deploy{" "}
-                  <span className="italic font-normal text-red-500">
+                  <span className="italic font-medium text-primary">
                     with precision.
                   </span>
                 </h1>
 
-                <h1 className="font-semibold leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="font-semibold leading-tight text-5xl lg:text-5xl">
                   Manage{" "}
-                  <span className="italic font-normal text-red-500">
+                  <span className="italic font-medium text-primary">
                     seamlessly.
                   </span>
                 </h1>
@@ -88,7 +88,7 @@ export default function Hero() {
                 <Button title={"Talk to our Experts"} icon={<FaArrowRight />} />
 
 
-                <button className="border mt-10 border-red-500 hover:bg-red-600/20 duration-300 px-6 py-3 rounded-lg flex items-center gap-3 font-medium text-sm md:text-base">
+                <button className="border mt-10 border-red-500  duration-300 px-6 py-3 rounded-lg flex items-center gap-3 font-medium text-sm md:text-base">
                   <FaEye />
                   View Our Resources
                 </button>
@@ -115,12 +115,12 @@ export default function Hero() {
 
         {/* Stats */}
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-14 pb-6 mt-20">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 md:gap-14 pb-6 mt-20">
 
           {stats.map((item, index) => (
             <div
               key={index}
-              className="bg-[#320607]/80 border border-red-900 rounded-2xl px-5 py-6 text-center hover:border-red-600 transition"
+              className="bg-[#320607]/80 border border-red-900 rounded-2xl px-5 py-6 text-center hover:border-red-600 transition "
             >
 
               <div className="flex justify-center text-white mb-2">

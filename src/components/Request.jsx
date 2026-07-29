@@ -10,7 +10,7 @@ export default function Request() {
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-center px-6 text-center">
 
-        <h2 className="max-w-5xl text-4xl font-semibold leading-tight text-white md:text-3xl lg:text-5xl">
+        <h2 className="max-w-5xl text-4xl font-semibold text-4xl font-primary leading-tight text-white md:text-3xl lg:text-5xl">
           Ready to Leverage ACPL’s IP Platforms
           <br />
           for Deeper Security Insights!!

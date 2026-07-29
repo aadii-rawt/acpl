@@ -14,7 +14,7 @@ export default function Marquee() {
   return (
     <section className="w-full ralative overflow-hidden my-20">
 
-      <div className="max-w-[1600px] relative mx-auto flex items-center bg-gradient-to-t from-[#E41F26] to-primary">
+      <div className="max-w-[1600px] relative mx-auto flex items-center bg-gradient-to-t from-[#E41F26]/20  to-[#1D0001]">
 
  {/* <div className="absolute left-1/2 bottom-[-180px] -translate-x-1/2 w-[1200px] h-[450px] rounded-full bg-red-600/30 blur-[160px]" /> */}
         {/* Fixed Left */}

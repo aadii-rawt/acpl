@@ -35,7 +35,7 @@ const services = [
 
 export default function ServicesSection() {
     return (
-        <section className="relative  py-24">
+        <section id="service" className="relative  py-24">
 
             <div className="relative max-w-[1500px] mx-auto px-5">
 
@@ -46,7 +46,7 @@ export default function ServicesSection() {
                            <Capsule title="Our Services" />
 
 
-                    <h2 className="mt-8 text-2xl text-white md:text-3xl lg:text-4xl font-semibold leading-tight">
+                    <h2 className="mt-8 text-2xl text-white md:text-3xl lg:text-4xl font-primary font-semibold leading-tight">
                         Precision-Engineered
                         <br />
                         <span className="text-primary">

@@ -38,11 +38,11 @@ export default function TestimonialsSection() {
 <Capsule title={"Testimonials"} />
         
 
-          <h2 className="mt-8 text-5xl font-semibold text-white">
+          <h2 className="mt-8 text-4xl font-primary font-semibold text-white">
             Trusted by Industry Leaders
           </h2>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-6 text-gray-300">
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-6 text-gray-300">
             Our customers speak for us — read how ACPL’s end-to-end
             cybersecurity services deliver value, protection, and trust
             across industries and geographies.

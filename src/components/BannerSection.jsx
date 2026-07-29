@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Stepper from "./Stepper";
 import IconColumn from "./IconColumn";
+import Capsule from "./Capsule";
 // import IconColumn from "./IconColumn";
 
 const steps = [
@@ -54,20 +55,18 @@ export default function BannerSection() {
 
   return (
     <section className="relative overflow-hidden bg-[#160000] ">
-      <div className="mx-auto flex max-w-8xl mx-auto items-center justify-between gap-20 px-6">
+      <div className="mx-auto md:flex  gap-5 max-w-8xl mx-auto items-center justify-between gap-20 px-6">
         {/* Left Side */}
         <div className="w-full max-w-2xl">
-          <span className="inline-flex rounded-full bg-gradient-to-r from-red-700 to-red-600 px-8 py-3 text-sm font-semibold text-white">
-          CyberCare Pro
-          </span>
 
-          <h1 className="mt-8 text-2xl font-bold leading-tight text-white lg:text-5xl">
-          One Bench, One
+          <Capsule title="Cybercare Pro" />
+          <h1 className="mt-8 text-2xl font-bold leading-tight text-white lg:text-4xl font-primary">
+            One Bench, One
             <span className="text-red-500"> Banner</span>
           </h1>
 
           <p className="mt-3 leading-6 text-gray-300">
-           At the heart of ACPL is CyberCare — a unified services framework that seamlessly integrates advisory, implementation, and managed security, ensuring resilient, scalable, and outcome-driven protection across your enterprise.
+            At the heart of ACPL is CyberCare — a unified services framework that seamlessly integrates advisory, implementation, and managed security, ensuring resilient, scalable, and outcome-driven protection across your enterprise.
           </p>
 
           <div className=" my-4">
@@ -84,7 +83,7 @@ export default function BannerSection() {
         </div>
 
         {/* Right Side */}
-        <div className="hidden lg:block">
+        <div className="">
           <IconColumn activeIndex={activeIndex} />
         </div>
       </div>

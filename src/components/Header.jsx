@@ -20,15 +20,15 @@ export default function Header() {
           {/* Desktop Menu */}
 
           <nav className="hidden lg:flex items-center gap-14  text-white">
-            <a href="/" className="hover:text-red-500 duration-300">
+            <a href="#service" className="hover:text-red-500 duration-300">
               Services
             </a>
 
-            <a href="/" className="hover:text-red-500 duration-300">
+            <a href="#product" className="hover:text-red-500 duration-300">
               Products
             </a>
 
-            <a href="/" className="hover:text-red-500 duration-300">
+            <a href="https://www.acpl.com/" className="hover:text-red-500 duration-300">
               ACPL Global
             </a>
           </nav>

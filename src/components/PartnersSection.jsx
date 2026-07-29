@@ -48,11 +48,11 @@ export default function PartnersSection() {
          <Capsule title="Partners & Expertise" />
 
 
-          <h2 className="mt-6 text-5xl font-semibold text-white leading-tight">
+          <h2 className="mt-6 text-4xl font-primary font-semibold text-white leading-tight">
             Powerful Solutions
             <br />
             with Trusted{" "}
-            <span className="text-red-500">Partners</span>
+            <span className="text-primary">Partners</span>
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-gray-300">

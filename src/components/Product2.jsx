@@ -67,7 +67,7 @@ const tabs = [
 
                          <div>
 
-                        <h2 className="text-5xl font-bold text-white leading-tight">
+                        <h2 className="text-4xl font-primary font-bold text-white leading-tight">
                           AttackFence - 
                         </h2>
 

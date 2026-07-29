@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .bg-primary{
   background-color: #1D0001;
@@ -7,6 +9,16 @@
 .text-primary{
   color : #E41F26
 }
+
+
+.font-primary{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
 /* marquee tag animation */
 
 .marquee {
@@ -70,22 +82,12 @@
 }
 
 
-/* banner logo scrol */
-
-/* =========================================
-   COLUMN
-========================================= */
-
 .column {
   position: relative;
   width: 180px;
   height: 760px;
   overflow: hidden;
 }
-
-/* =========================================
-   TRACK
-========================================= */
 
 .track {
   display: flex;
@@ -94,10 +96,6 @@
   will-change: transform;
 }
 
-/* =========================================
-   ANIMATION
-========================================= */
-
 .track-up {
   animation: scrollUp 18s linear infinite;
 }
@@ -105,10 +103,6 @@
 .track-down {
   animation: scrollDown 18s linear infinite;
 }
-
-/* =========================================
-   KEYFRAMES
-========================================= */
 
 @keyframes scrollUp {
 
@@ -133,10 +127,6 @@
   }
 
 }
-
-/* =========================================
-   HOVER
-========================================= */
 
 .column:hover .track {
   animation-play-state: paused;
@@ -187,25 +177,74 @@
 }
 
 
-/* shine button */
+/* button shine effect  */
 
-.border-path {
-  fill: none;
-  stroke: white;
-  stroke-width: 4;
+.shiny-capsule {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 
-  stroke-dasharray: 25 640;
-  stroke-linecap: round;
+  padding: 5px 20px;
+  border-radius: 9999px;
 
-  animation: moveBorder 2.8s linear infinite;
+  color: white;
+  font-weight: 500;
+
+  background: linear-gradient(to right, #6d0005, #d3000a);
 }
 
-@keyframes moveBorder {
+/* Border mask */
+.shiny-border {
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  overflow: hidden;
+
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+/* Rotating shine */
+.shiny-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 400px;
+  height: 400px;
+
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 330deg,
+    rgba(255, 255, 255, 0.95) 345deg,
+    rgba(255, 255, 255, 0.3) 355deg,
+    transparent 360deg
+  );
+
+  animation: rotateShine 3s linear infinite;
+}
+
+@keyframes rotateShine {
   from {
-    stroke-dashoffset: 0;
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 
   to {
-    stroke-dashoffset: -640;
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }

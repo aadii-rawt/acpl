@@ -20,7 +20,7 @@ export default function ContactSection() {
               We Are Here To Help You
             </span>
 
-            <h2 className="mt-5 text-6xl font-semibold leading-[1.15] text-white">
+            <h2 className="mt-5 text-5xl font-primary font-semibold leading-[1.15] text-white">
               Discuss Your
               <br />
               Cybersecurity
@@ -28,7 +28,7 @@ export default function ContactSection() {
               Challenges!
             </h2>
 
-            <p className="mt-10 max-w-xl text-xl leading-8 text-gray-300">
+            <p className="mt-10 max-w-xl text-lg leading-8 text-gray-300">
               Are you looking for top-quality cybersecurity solutions tailored
               to your needs? Reach out to us.
             </p>
@@ -87,7 +87,7 @@ export default function ContactSection() {
 
             <div className="text-center">
 
-              <h2 className="text-4xl font-bold text-white">
+              <h2 className=" text-4xl font-primary font-bold text-white">
                 Questions or Comments?
               </h2>
 

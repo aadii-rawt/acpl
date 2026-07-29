@@ -39,7 +39,7 @@ export default function ServiceCard({
                         {number}
                     </h1>
 
-                    <h2 className="text-2xl font-semibold text-white md:text-4xl lg:text-5xl">
+                    <h2 className="text-2xl font-primary font-semibold text-white md:text-4xl">
                         {title}
                     </h2>
 
